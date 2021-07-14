@@ -140,3 +140,44 @@ footer{
 }
 /*-----footer section style End--------
 ---------------------------------------*/
+
+/*------ Media Queries phn Start--------
+---------------------------------------*/
+
+@media only screen and (max-width:688px){
+    .flexible-container{
+        margin: 0;
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1f);
+        align-items: center; 
+    }
+    .top-banner img{
+        margin-top: 40px;
+        width: 100%;
+        height: 50%;
+    }
+    .players-section{
+       margin: 0;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 20px;margin-bottom: 80px;
+        margin-top: 20px;
+        margin-left: 26px;   
+    }
+    .video-section{
+        text-align: center;
+    }
+    iframe{
+       width: 120%;
+       margin-top: 40px;
+       margin-bottom: 40px;  
+    }
+    .footer-logo img{
+        width: 50%;
+        height: 20%;
+    }
+}
+/*------ Media Queries phn End--------
+---------------------------------------*/
